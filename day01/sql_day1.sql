@@ -1,0 +1,12 @@
+---Revising the Select Query I---
+
+SELECT *
+FROM CITY
+WHERE POPULATION > 100000 AND COUNTRYCODE = 'USA'
+
+
+---Revising the Select Query II---
+
+SELECT NAME
+FROM CITY
+WHERE POPULATION > 120000 and COUNTRYCODE = 'USA'
