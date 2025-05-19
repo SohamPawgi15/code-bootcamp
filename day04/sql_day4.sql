@@ -1,0 +1,12 @@
+-- Revising Aggregations – The Count Function
+SELECT COUNT(NAME)
+FROM CITY
+WHERE POPULATION > 100000;
+
+-- Average Population
+SELECT FLOOR(AVG(POPULATION)) AS AVERAGE
+FROM CITY;
+
+-- Weather Observation Station 4
+SELECT COUNT(CITY) - COUNT(DISTINCT(CITY))
+FROM STATION;
